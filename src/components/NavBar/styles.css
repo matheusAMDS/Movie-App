@@ -1,0 +1,41 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  color: black;
+  padding: 10px;
+}
+
+#app-logo {
+  font-size: 35px;
+  font-weight: bold;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+
+
+#app-search .app-search-bar {
+  height: 30px;
+  padding: 0 5px;
+  border: 0;
+}
+
+#app-search button {
+  background-color: black;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 5px;
+  color: white;
+  font-style: normal;
+  border: 0;
+  border-radius: 1px;
+}

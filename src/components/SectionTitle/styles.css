@@ -1,0 +1,13 @@
+.section-title {
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.section-title:before, .section-title:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid #000;
+  margin: auto;
+}

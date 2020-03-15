@@ -1,0 +1,64 @@
+.just-released {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.just-released .release {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.just-released .release .info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.just-released .release .info h1 {
+  color: white;
+  font-size: 25px;
+}
+
+.just-released .release .info p {
+  color: white;
+  font-size: 19px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  width: 55px;
+  height: 55px;
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding-bottom: 2px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.prev:hover, .next:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.prev:disabled, .next:disabled {
+  display: none;
+}
+
+.prev {
+  left: -20px;
+}
+
+.next {
+  right: -20px;
+}

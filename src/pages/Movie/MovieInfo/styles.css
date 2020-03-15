@@ -1,0 +1,39 @@
+.movie-info {
+  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  background-color: rgb(29, 29, 29);
+  color: #eee;
+}
+
+@media (max-width: 700px) {
+  .movie-info {
+    flex-flow: row wrap;
+  }
+}
+
+.movie-info img {
+  display: block;
+  max-width: 100%;
+  height: 350px;
+}
+
+.movie-info .info {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.movie-info .info .movie-title {
+  text-align: center;
+}
+
+.movie-info .info p {
+  margin: 10px 5px;
+}
+

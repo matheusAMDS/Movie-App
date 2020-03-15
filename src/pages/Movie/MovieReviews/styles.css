@@ -1,0 +1,40 @@
+.movie-reviews {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+.movie-reviews .review {
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.movie-reviews .review .review-author {
+  font-size: 20px;
+  color: black;
+}
+
+.movie-reviews .review p {
+  color: rgb(40,40,40);
+}
+
+.movie-reviews .review .view {
+  text-decoration: underline;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+
+.movie-reviews .review .view:disabled {
+  display: none;
+}
+
+.movie-reviews .no-reviews {
+  text-align: center;
+  font-size: 22px;
+}

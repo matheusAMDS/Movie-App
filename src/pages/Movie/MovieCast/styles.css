@@ -1,0 +1,43 @@
+.cast {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cast .actor {
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 178px;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+.cast .actor-name {
+  display: block;
+  font-size: 19px;
+}
+
+.cast .actor img {
+  display: block;
+  height: 250px;
+  width: 167px;
+  background-color: #ddd;
+}
+
+.more-actors {
+  display: block;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  color: #eee;
+  padding: 7px;
+  border: 0;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.more-actors:disabled {
+  display: none;
+}
